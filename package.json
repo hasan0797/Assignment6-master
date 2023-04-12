@@ -1,0 +1,27 @@
+{
+  "name": "assignment6-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasan0797/Assignment6.git"
+  },
+  "author": "Mahbubul Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasan0797/Assignment6/issues"
+  },
+  "homepage": "https://github.com/hasan0797/Assignment6#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.6",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.0"
+  }
+}

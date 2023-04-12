@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Lobster&family=Phudu:wght@600&display=swap");
+
+body,
+html {
+  background: rgb(204, 255, 182);
+  background: linear-gradient(
+    180deg,
+    rgba(204, 255, 182, 1) 0%,
+    rgba(233, 243, 232, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "Fragment Mono", monospace;
+}
+
+/* Navigation Bar */
+.bg-light {
+  background: #529154 !important;
+  box-shadow: 0px 8px 25px rgba(11, 58, 33, 0.34);
+}
+.bg-light a {
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 2.1rem;
+  text-shadow: 2px 2px 4px rgba(236, 226, 226, 0.482);
+}
+
+.nav-link {
+  font-weight: bolder;
+  color: #a66363 !important;
+}
+
+
+.nav-link:hover {
+  font-weight: bolder;
+  color: #000000 !important;
+}
+
+.btn-primary {
+  background-color: #637985;
+  border: 2px solid #0d2b3e;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: #0d2b3e;
+  border: 2px solid #0d2b3e;
+  box-shadow: 0px 8px 25px rgba(83, 89, 144, 0.303);
+}
+
+/* Table Css  */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #b3d3b3;
+}
+
+tr:nth-child(odd) {
+  background-color: #cfe4cf;
+}
+
+tr:hover {
+  background-color: #e9f3e8;
+}
+
+/* All Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212529;
+  margin-top: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.482);
+}
+
+/* Fieldset Legends */
+legend {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.761);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.482);
+  padding: 10px 0;
+}
+
+/* Center the images */
+img {
+  /* display: block; */
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+/* Add padding and border to the paragraph */
+p {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+video {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-box {
+  border: 1px solid #529154;
+  border-radius: 24px;
+  padding: 20px;
+}
+.lists {
+  border: 1px solid #529154;
+  border-radius: 24px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.lists h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.lists ul {
+  list-style: disc;
+  margin-left: 30px;
+  padding-left: 10px;
+}
+
+.lists ol {
+  list-style: decimal;
+  margin-left: 30px;
+  padding-left: 10px;
+}
+
+.lists li {
+  margin-bottom: 5px;
+}
+
+.lists p {
+  font-style: italic;
+}
